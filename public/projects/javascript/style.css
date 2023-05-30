@@ -1,0 +1,80 @@
+.body{
+    background-color:black}
+
+@media screen and (max-width: 500px) {
+    .body {
+      width: 100%;
+    }
+  }
+header{
+   
+background-color: sienna;
+color:white ;
+height: 60px;
+
+
+}
+
+.nav-link{
+    color: white;
+    
+  
+}
+
+.logo{
+    height: 60px;
+    width: 100px;
+    margin-right: 700px;
+   
+}
+
+.carousel{
+    
+    margin-top: 10px;
+    margin-left: 200px;
+    height:400px;
+    width: 450px;
+    display: flex;
+
+
+}
+.card{
+    justify-content: space-around;
+}
+.rounded-float-start{
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+
+.card-group{
+    justify-content: space-between;
+}
+.linkss{
+    height: 700px;
+    width: 700px;
+    margin-left: 100px;
+}
+.mswork{
+    background-color: brown;
+}
+.img{
+    margin-left: 20px;
+}
+.H1{
+ color: white;
+}
+.skills{
+    text-align: center;
+}
+
+
+.about{
+    background-color: teal;
+}
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }

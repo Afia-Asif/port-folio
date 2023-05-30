@@ -1,0 +1,133 @@
+*{
+    padding: 0%;
+    margin: 0;
+    background-color: black;
+}
+body{
+  
+    background-color: brown;
+}
+.head{
+    display: flex;
+    text-decoration: none;
+    background-color: black;
+    height: 50px;
+}
+ul{
+    display: flex;
+    background-color: black;
+    padding: 2px;
+}
+li{
+    padding:12px 19px;
+    list-style: none;
+}
+ a{
+     text-decoration: none;
+     border-radius: 30px 40px;
+     text-decoration:none;
+     border: 2px solid white;
+     background-color:black;
+     padding :3px 17px;
+     border-radius: 136px;
+     font-size: 25px;
+     position: relative;
+     color: white;
+     cursor: pointer;
+    
+     
+ 
+ }
+ a :hover{
+     color: royalblue;
+ }
+
+
+
+h1{
+ 
+    text-align: center;
+    border: 6px solid black;
+    border-radius: 52px;
+    padding: 11px;
+    background-color: darkmagenta;
+    color: aliceblue;
+    width: 500px;
+    height: 50px;
+    margin: 12px;
+    margin-left: 227px;
+    font-size: 40px;
+}
+
+.course{
+    align-items: center;
+    padding: 2px;
+}
+.wbn{
+    
+/* 
+    display: list-item;
+    padding: 16px;
+    margin: 33px;
+    color: aliceblue;
+    text-align: unset;
+    border-radius: 41px;
+    border: 3px solid darkblue;
+    background-color: darkblue;
+    width: 129px;
+    height: 27px;
+    font-size: 21px; */
+
+    display: inline-flex;
+    padding: 15px;
+    margin: 28px;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 41px;
+    border: 3px solid black;
+    /* background-color: darkblue; */
+    background-color: darkmagenta;
+    width: 129px;
+    height: 27px;
+    font-size: 27px;
+
+}
+
+
+.box{
+    
+    display: inline-block;
+    margin: 119px;
+    border-radius: 13px;
+    border: 10px solid cadetblue;
+    padding: 0px;
+    width: 170px;
+    font-size: 10px;
+    margin-top: 14px;
+    margin-left: 56px;
+    margin-right: 75px;
+    color: white;
+}
+
+.boximage{
+    height: 169px;
+    width: 169px;
+}
+.boximage-2{
+    
+    height: 143px;
+    width: 167px;
+}
+.btn{
+    width: 142px;
+    padding: 5px;
+    margin: 1px;
+    border-radius: 22px;
+    background-color: black;
+    color: aliceblue;
+    font-family: ui-monospace;
+    cursor: pointer;
+}
+
+
+

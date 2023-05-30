@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body{
+        background-color: violet;
+      }
+#btn{
+  padding: 10px 14px;
+  background-color: brown;
+  color: wheat;
+  border-radius: 20px;
+
+}
+    </style>
+</head>
+<body>
+
+<h1>Get current date using JavaScript.</h1>
+ 
+  <h2 id="time"></h2>
+
+  <div id="txt"></div>
+
+
+
+ <h1> this is heading</h1>
+  <p id="para">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Tempore quam non sint reiciendis ratione adipisci corporis, ipsam sapiente ducimus? Esse numquam est impedit blanditiis maxime deleniti reprehenderit quidem, aperiam nisi consequatur beatae. Dignissimos repellat ex nulla perferendis similique. Dignissimos nostrum quod tenetur provident, vel natus alias culpa dolore, repellendus hic obcaecati, neque non? Pariatur est aliquid placeat atque! Nostrum sequi, excepturi ipsum perferendis ducimus optio eligendi sunt non maxime voluptates expedita quisquam assumenda qui vel commodi maiores! Minima quasi suscipit eveniet non ullam provident delectus iure atque. Esse repellat minima totam quod nam autem harum vero, recusandae qui placeat adipisci voluptatibus nisi possimus aperiam assumenda natus, necessitatibus facere distinctio. Est voluptatum tempora minima ut dolores, beatae soluta autem neque odit facere reiciendis harum, voluptate ab distinctio incidunt delectus eaque hic laudantium sit ipsum! Voluptas, tempore pariatur. Placeat perspiciatis tempora hic, eum iste sed nesciunt cumque sequi totam odio amet, quasi molestiae laudantium. Deleniti quod suscipit natus amet vitae expedita laudantium, ipsam ex nisi possimus ratione ab nulla, placeat iusto voluptatum nihil quas harum aliquid? Incidunt quibusdam doloribus placeat sed dicta dolorum perspiciatis laudantium asperiores, nihil nesciunt ex ipsam, ab itaque maxime fugit quasi laborum. Voluptate possimus neque nesciunt quam quis sint animi nostrum velit pariatur consequatur quae quasi aspernatur autem iure corrupti aut, expedita rerum praesentium fugit. Labore quia accusamus cumque sequi praesentium recusandae suscipit ipsam aliquid, eveniet rerum et consectetur distinctio dignissimos.
+  </p>
+  <button id="btn"  onclick="toggleHide()">show hide</button>
+
+
+
+
+    <script>
+    function updateTime(){
+        time.innerHTML = new Date()
+      }
+      setInterval(updateTime, 1000) //
+    
+   function toggleHide(){
+     let btn = document.getElementById('btn')
+     let para = document.getElementById('para')
+     if(para.style.display != "none"){
+       para.style.display ='none'
+        }
+     else{
+       para.style.display = 'block'
+     }
+   }
+    
+
+
+    
+    
+    
+    
+    </script>
+</body>
+</html>
